@@ -1,0 +1,2 @@
+# bornenon
+- svelte + sapper + tailwindcss
