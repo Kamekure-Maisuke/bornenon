@@ -1,46 +1,13 @@
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+    <img class="mx-auto mb-10 object-cover object-center rounded" alt="me" src="./human.png">
+    <div class="flex flex-col text-center w-full">
+      <h1 class="text-xl font-medium title-font mb-4 text-gray-900">t-o-d</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">t-o-dです。お世話になります。沖縄にいます。よろしくお願いいたします。</p>
+    </div>
+  </div>
+</section>
