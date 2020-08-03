@@ -7,10 +7,6 @@
   onMount(() => (skills= skillsData));
 </script>
 
-<svelte:head>
-	<title>Skill</title>
-</svelte:head>
-
 <div>
   <h1 class="text-center mb-4 text-4xl">スキル</h1>
 </div>

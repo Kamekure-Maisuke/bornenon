@@ -7,10 +7,6 @@
   onMount(() => (links= linksData));
 </script>
 
-<svelte:head>
-	<title>Link</title>
-</svelte:head>
-
 <div>
   <h1 class="text-center mb-4 text-4xl">リンク</h1>
 </div>
