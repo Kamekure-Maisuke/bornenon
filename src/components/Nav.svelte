@@ -51,7 +51,7 @@
 <nav>
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">ホーム</a></li>
-		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about">スキル</a></li>
+		<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="skills">スキル</a></li>
 		<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">リンク</a></li>
 	</ul>
 </nav>
